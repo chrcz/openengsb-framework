@@ -44,9 +44,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/openengsb/openengsb.git</connection>
-    <developerConnection>scm:git:git@github.com:openengsb/openengsb.git</developerConnection>
-    <url>http://github.com/openengsb/openengsb</url>
+    <connection>scm:git:git://github.com/openengsb/openengsb-framework.git</connection>
+    <developerConnection>scm:git:git@github.com:openengsb/openengsb-framework.git</developerConnection>
+    <url>http://github.com/openengsb/openengsb-framework</url>
   </scm>
 
   <properties>
@@ -314,7 +314,7 @@
               <configuration>
                 <webAccessUrl>http://github.com/openengsb/openengsb</webAccessUrl>
                 <anonymousConnection>scm:git:git://github.com/openengsb/openengsb.git</anonymousConnection>
-                <developerConnection>scm:git:git@github.com:openengsb/openengsb.git</developerConnection>
+                <developerConnection>scm:git:git@github.com:openengsb/openengsb-framework.git</developerConnection>
               </configuration>
               <reportSets>
                 <reportSet>
