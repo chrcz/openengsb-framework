@@ -298,5 +298,28 @@
     <bundle>mvn:org.openengsb.connector/openengsb-connector-example/${project.version}</bundle>
   </feature>
 
+  <feature name="apache-directory" version="1.5.7" description="Apache Directory Server">
+      <bundle>mvn:http://repository.springsource.com/maven/bundles/external!org.bouncycastle/com.springsource.org.bouncycastle.jce/1.39.0</bundle>
+      <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-lang/2.4_2-SNAPSHOT</bundle>
+      <bundle>mvn:commons-collections/commons-collections/${commons-collections.version}</bundle>
+      <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr/3.0.1_2-SNAPSHOT</bundle>
+      <bundle>mvn:org.apache.mina/mina-core/2.0.1</bundle>
+      <bundle>mvn:org.apache.xbean/xbean-spring/${xbean.version}</bundle>
+      <bundle>mvn:org.apache.directory.server/apacheds-osgi/${apache.directory.version}</bundle>
+  </feature>
+
+  <feature name="openengsb-infrastructure-ldap" version="${project.version}" description="OpenEngSB LDAP">
+    <details>
+      ldap feature
+    </details>
+    <feature version="1.5.7">apache-directory</feature>
+    <bundle>mvn:commons-lang/commons-lang/2.6</bundle> 
+	<bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.dom4j/1.6.1_4</bundle>
+	<bundle>mvn:org.glassfish/javax.xml.stream/10.0-b28</bundle>
+	<bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlpull/1.1.3.1_2</bundle>
+  </feature>
+
+
+
 </features>
 
